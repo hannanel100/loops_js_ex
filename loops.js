@@ -69,7 +69,7 @@ else{
     console.log(num + " is not a palindrom");
 }
 */
-//8. calculating 4th power of num when num is bigger than 1
+/*8. calculating 4th power of num when num is bigger than 1
 var pow = 4;
 var num = 4;
 var result = 1;
@@ -77,3 +77,12 @@ for(var i = 0; i < pow; i++){
     result = result*num;
 }
 console.log(result);
+*/
+/*9. calculating the factorial of num
+var num = 0;
+var result = 1;
+for(var i = 0; i < num; i++){
+    result = result*(num-i);
+}
+console.log(result);
+*/
