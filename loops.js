@@ -1,4 +1,4 @@
-var n = 100;
+var n = 10;
 /*1. prints all numbers from 1 to n with while
 var count = 1;
 while(count <= n){
@@ -13,7 +13,7 @@ while(count < n){
     count++;
 }
 */
-/*3.print even numbers from 1 to 100 using while
+/*3.print even numbers from 1 to n using while
 var count = 1;
 while (count <= n) {
     if (count % 2 == 0) {
@@ -28,4 +28,19 @@ for (var i = 0; i < n; i++){
     sum += i;
 }
 console.log(sum);
+*/
+/*5.print multiplation board using nested loops
+
+for (var i = 0; i < n; i++){
+    var row = "";
+    for(var j = 0; j < n; j++){
+        if(((i+1)*(j+1))<10){
+            row = row + "  " + ((i+1)*(j+1));    
+        }
+        else{
+            row = row + " " + ((i+1)*(j+1));
+        }
+    }
+    console.log(row);
+}
 */
