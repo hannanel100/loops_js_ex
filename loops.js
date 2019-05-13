@@ -22,3 +22,10 @@ while (count <= n) {
     count++;
 }
 */
+/*4.prints sum of numbers from 0 to n using for
+var sum = 0;
+for (var i = 0; i < n; i++){
+    sum += i;
+}
+console.log(sum);
+*/
