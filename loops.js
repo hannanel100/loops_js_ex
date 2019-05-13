@@ -44,13 +44,28 @@ for (var i = 0; i < n; i++){
     console.log(row);
 }
 */
-/*reverse number using loops
+/*6.reverse number using loops
 var num = 54321;
 var temp = num;
 var rev = 0;
-while (temp > 1){
+while (temp >= 1){
     rev = (rev * 10) + (temp % 10);
     temp = Math.floor(temp / 10);
 }
 console.log(rev);
+*/
+/*7.checking if number is a palindrom
+var num = 12321;
+var temp = num;
+var rev = 0;
+while (temp >= 1){
+    rev = (rev * 10) + (temp % 10);
+    temp = Math.floor(temp / 10);
+}
+if (rev == num){
+    console.log(num + " is a palindrom");
+}
+else{
+    console.log(num + " is not a palindrom");
+}
 */
