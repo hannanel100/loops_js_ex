@@ -1,4 +1,4 @@
-var n = 35;
+var n = 33550336;
 /*1. prints all numbers from 1 to n with while
 var count = 1;
 while(count <= n){
@@ -112,5 +112,19 @@ if(armsNum == n){
 }
 else{
     console.log(n + " is not an armstrong number");
+}
+*/
+/*13. checking if num is a perfect number
+var perfectNum = 0;
+for(var i = 0; i<=n/2; i++){
+    if((n % i) == 0){
+        perfectNum += i;
+    }
+}
+if(perfectNum == n){
+    console.log(n + " is a perfect number");
+}
+else{
+    console.log(n + " is NOT a perfect number");
 }
 */
