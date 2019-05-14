@@ -1,4 +1,4 @@
-var n = 1;
+var n = 35;
 /*1. prints all numbers from 1 to n with while
 var count = 1;
 while(count <= n){
@@ -98,5 +98,19 @@ for (var i = 2; i < n; i++ ){
 }
 if(isPrime == true){
     console.log("Prime");
+}
+*/
+/*12.checking if num is an armstrong number
+var temp = n;
+var armsNum = 0;
+while(temp > 0){
+    armsNum = armsNum + Math.pow((temp % 10), 3);
+    temp = Math.floor(temp / 10);
+}
+if(armsNum == n){
+    console.log(n + " is an armstrong number");
+}
+else{
+    console.log(n + " is not an armstrong number");
 }
 */
