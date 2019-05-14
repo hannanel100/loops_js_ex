@@ -1,4 +1,4 @@
-var n = 10;
+var n = 1;
 /*1. prints all numbers from 1 to n with while
 var count = 1;
 while(count <= n){
@@ -85,4 +85,18 @@ for(var i = 0; i < num; i++){
     result = result*(num-i);
 }
 console.log(result);
+*/
+/*11. checking if n is a prime number
+isPrime = true;
+for (var i = 2; i < n; i++ ){
+    if(n % i == 0){
+        console.log("Not prime");
+        isPrime = false;
+        break;
+    }
+    isPrime = true;   
+}
+if(isPrime == true){
+    console.log("Prime");
+}
 */
