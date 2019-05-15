@@ -1,4 +1,4 @@
-var n = 33550336;
+var n = 50;
 /*1. prints all numbers from 1 to n with while
 var count = 1;
 while(count <= n){
@@ -127,4 +127,18 @@ if(perfectNum == n){
 else{
     console.log(n + " is NOT a perfect number");
 }
+*/
+/*14. printing out fibonnaci series from 1 till n
+var current = 1;
+var beforeCurrent = 0;
+var temp;
+var fib = current;
+for(var i = 0; i < n; i ++){
+    temp = current;
+    current += beforeCurrent;
+    beforeCurrent = temp;
+    fib =fib + " , " + current.toString();
+    //console.log(fib);  
+}
+console.log(fib);
 */
